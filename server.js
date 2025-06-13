@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-  origin: "https://sunshineteck.com/", // Adjust this to your frontend's origin
+  origin: "https://sunshineteck.com", // Adjust this to your frontend's origin
 }));
 app.use(express.json());
 
